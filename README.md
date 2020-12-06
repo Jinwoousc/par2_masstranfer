@@ -6,7 +6,6 @@ Mass Transfer Models (e.g., partitioning and one-site models) is incorporated fo
 
 ![homogeneous aquifer with one-site model](/README_images/HGWS.png) ![homogeneous aquifer with one-site model](/README_images/HGWS.png)
 ![homogeneous aquifer with one-site model](/README_images/HGWS.png)
-![homogeneous aquifer with one-site model](/README_images/HGWS.avi)
 
 
 ## Getting Started
