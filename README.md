@@ -4,7 +4,7 @@ PAR² is a Lagrangian solute transport simulator using a parallelized Random Wal
 # What is in the MassTransfer update?
 Mass Transfer Models (e.g., partitioning and one-site models) is incorporated for each grid block.
 
-![homogeneous aquifer with one-site model](/README_image/GBWOSHO.avvi)
+![homogeneous aquifer with one-site model](/README_images/HGWS.avvi)
 
 ## Getting Started
 You can download the latest release of PAR² for Windows executable from [here](https://github.com/Jinwoousc/par2_updated/tree/main/Build/Release). Make sure your computer is equipped with an NVIDIA GPU and NVIDIA drivers are updated. You can control the simulation parameters through a YAML configuration file. Look inside the Examples folder to get started.
