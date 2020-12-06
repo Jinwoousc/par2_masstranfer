@@ -1,0 +1,391 @@
+The system is: Windows - 10.0.19041 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/30/2020 9:19:15 PM.
+Project "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.11
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/3.17.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/30/2020 9:19:24 PM.
+Project "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCUDA.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+AddCudaCompileDeps:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" /I. /FIcuda_runtime.h /c C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+Project "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1) is building "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  cmd.exe /C "C:\Users\imjw2\AppData\Local\Temp\tmp695f2148f5194c1082048238e3705b68.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc140.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc140.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  #$ _NVVM_BRANCH_=nvvm
+  #$ _SPACE_= 
+  #$ _CUDART_=cudart
+  #$ _HERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin
+  #$ _THERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin
+  #$ _TARGET_SIZE_=
+  #$ _TARGET_DIR_=
+  #$ _TARGET_SIZE_=64
+  #$ _WIN_PLATFORM_=x64
+  #$ TOP=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/..
+  #$ NVVMIR_LIBRARY_DIR=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../nvvm/libdevice
+  #$ PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../nvvm/bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../lib;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\bin\NETFX 4.6.1 Tools;Common7\tools;Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\\MSBuild\15.0\bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64;C:\Program Files\MATLAB\R2018b\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\imjw2\AppData\Local\Microsoft\WindowsApps;C:\Users\imjw2\AppData\Local\atom\bin;C:\Users\imjw2\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;
+  #$ INCLUDES="-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../include"  
+  #$ LIBRARIES=  "/LIBPATH:C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../lib/x64"
+  #$ CUDAFE_FLAGS=--sdk_dir "C:\Program Files (x86)\Windows Kits\10"
+  #$ PTXAS_FLAGS=
+  CMakeCUDACompilerId.cu
+  #$ cl.exe @"C:\Users\imjw2\AppData\Local\Temp/tmpxft_00003758_00000000-8.res" > "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-7_CMakeCUDACompilerId.cpp1.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\imjw2\AppData\Local\Temp/tmpxft_00003758_00000000-8.res
+  #$ cicc --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --orig_src_file_name "C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/3.17.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10"  -arch compute_52 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00003758_00000000-3_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-4_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-7_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.ptx"
+  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.ptx"  -o "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-9_CMakeCUDACompilerId.sm_52.cubin" 
+  #$ fatbinary -64 --ident="C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/3.17.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-9_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-3_CMakeCUDACompilerId.fatbin.c" 
+  #$ erase C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-3_CMakeCUDACompilerId.fatbin
+  #$ cl.exe @"C:\Users\imjw2\AppData\Local\Temp/tmpxft_00003758_00000000-10.res" > "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\imjw2\AppData\Local\Temp/tmpxft_00003758_00000000-10.res
+  #$ cudafe++ --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --orig_src_file_name "C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/3.17.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10" --m64 --parse_templates --gen_c_file_name "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-6_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00003758_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-4_CMakeCUDACompilerId.module_id" "C:/Users/imjw2/AppData/Local/Temp/tmpxft_00003758_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+  #$ cl.exe @"C:\Users\imjw2\AppData\Local\Temp/tmpxft_00003758_00000000-11.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+  tmpxft_00003758_00000000-6_CMakeCUDACompilerId.cudafe1.cpp
+  #$ erase C:\Users\imjw2\AppData\Local\Temp/tmpxft_00003758_00000000-11.res
+Done Building Project "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 Debug\CMakeCUDACompilerId.cu.obj
+     Creating library .\CompilerIdCUDA.lib and object .\CompilerIdCUDA.exp
+  CompilerIdCUDA.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\.\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate".
+Done Building Project "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\3.17.3\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.21
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/3.17.3/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Parsed CUDA nvcc include information from above output:
+  found 'INCLUDES=' string: ["-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/../include"  ]
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f613c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24234.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f613c.dir\Debug\\" /Fd"cmTC_f613c.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+  cmTC_f613c.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_f613c.exe
+  cmTC_f613c.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_f613c.pdb (Full PDB)
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_603bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24234.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_603bb.dir\Debug\\" /Fd"cmTC_603bb.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+  cmTC_603bb.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_603bb.exe
+  cmTC_603bb.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_603bb.pdb (Full PDB)
+
+
+
+
+
+Detecting CXX [-std:c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_04d28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24234.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_04d28.dir\Debug\\" /Fd"cmTC_04d28.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -std:c++14 C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+  cmTC_04d28.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_04d28.exe
+  cmTC_04d28.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_04d28.pdb (Full PDB)
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_4e6d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24234.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e6d4.dir\Debug\\" /Fd"cmTC_4e6d4.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+  cmTC_4e6d4.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_4e6d4.exe
+  cmTC_4e6d4.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_4e6d4.pdb (Full PDB)
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+Determining if the CUDA compiler works passed with the following output:
+Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_68e28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Compiling CUDA source file main.cu...
+  
+  C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_68e28.dir\Debug\vc140.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_68e28.dir\Debug\main.obj "C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\main.cu" 
+  main.cu
+     Creating library C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_68e28.lib and object C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_68e28.exp
+  cmTC_68e28.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_68e28.exe
+  cmTC_68e28.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_68e28.pdb (Full PDB)
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1774a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Compiling CUDA source file ..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.17\Modules\CMakeCUDACompilerABI.cu...
+  
+  C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_1774a.dir\Debug\vc140.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_1774a.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCUDACompilerABI.cu" 
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]
+  CMakeCUDACompilerABI.cu
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]
+LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]
+     Creating library C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_1774a.lib and object C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_1774a.exp
+  cmTC_1774a.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_1774a.exe
+  cmTC_1774a.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_1774a.pdb (Full PDB)
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(link\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1774a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework]
+  ignore line: [Copyright (C) Microsoft Corporation. All rights reserved.]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file ..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.17\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52 code=\"sm_52 compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_1774a.dir\Debug\vc140.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_1774a.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]]
+  ignore line: [  CMakeCUDACompilerABI.cu]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]]
+  ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+  ignore line: [ ignored [C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\cmTC_1774a.vcxproj]]
+  ignore line: [     Creating library C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_1774a.lib and object C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_1774a.exp]
+  ignore line: [  cmTC_1774a.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\CMakeFiles\CMakeTmp\Debug\cmTC_1774a.exe]
+  ignore line: [  cmTC_1774a.vcxproj -> C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/CMakeTmp/Debug/cmTC_1774a.pdb (Full PDB)]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

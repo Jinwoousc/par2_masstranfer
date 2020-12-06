@@ -1,0 +1,3 @@
+C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/par2.dir
+C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/imjw2/Documents/CSCI596/Build/CMakeFiles/ZERO_CHECK.dir

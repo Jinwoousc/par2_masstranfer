@@ -1,0 +1,208 @@
+﻿  Compiling CUDA source file ..\maingpu.cu...
+  
+  C:\Users\imjw2\Documents\CSCI596\Build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_60,code=\"sm_60,compute_60\" -gencode=arch=compute_61,code=\"sm_61,compute_61\" -gencode=arch=compute_62,code=\"sm_62,compute_62\" -gencode=arch=compute_70,code=\"sm_70,compute_70\" -gencode=arch=compute_70,code=\"compute_70,compute_70\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu   -I"C:\Users\imjw2\Documents\yaml-cpp-0.6.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DPAR2_FLOAT=float -D"CMAKE_INTDIR=\"Release\"" -D"CMAKE_INTDIR=\"Release\"" -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdpar2.dir\Release\vc140.pdb /FS /Zi  /MT /GR" -o par2.dir\Release\maingpu.obj "C:\Users\imjw2\Documents\CSCI596\maingpu.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  maingpu.cu
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/config/cpp_dialect.h:98: warning: Thrust requires MSVC 2017. Please upgrade your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/config/cpp_dialect.h:104: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cub\util_cpp_dialect.cuh:123: warning: CUB requires MSVC 2017. Please upgrade your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cub\util_cpp_dialect.cuh:129: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+C:/Users/imjw2/Documents/CSCI596/maingpu.cu(332): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\imjw2\documents\csci596\Utilities/Parameters.h(464): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\imjw2\documents\csci596\Utilities/Parameters.h(463): note: while compiling class template member function 'int par2::Parameters<float>::snapshotSize(void) const'
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(237): note: see reference to function template instantiation 'int par2::Parameters<float>::snapshotSize(void) const' being compiled
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(95): note: see reference to class template instantiation 'par2::Parameters<float>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<9>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1496): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<9>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<8>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1491): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<8>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<7>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1486): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<7>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<6>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1481): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<6>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<5>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1476): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<5>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<4>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1471): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<4>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<3>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1466): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<3>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<2>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1461): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<2>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<1>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1456): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<1>>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/functional/actor.h(49): note: see reference to class template instantiation 'thrust::detail::functional::argument<0>' being compiled
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/functional.h(1451): note: see reference to class template instantiation 'thrust::detail::functional::actor<thrust::detail::functional::argument<0>>' being compiled
+c:\users\imjw2\documents\csci596\Utilities/Parameters.h(338): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\imjw2\documents\csci596\Utilities/Parameters.h(337): note: while compiling class template member function 'int par2::Parameters<float>::csvNumberOfItems(void) const'
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(211): note: see reference to function template instantiation 'int par2::Parameters<float>::csvNumberOfItems(void) const' being compiled
+c:\users\imjw2\documents\csci596\Utilities/Parameters.h(302): warning C4244: 'return': conversion from 'time_t' to 'long', possible loss of data
+  c:\users\imjw2\documents\csci596\Utilities/Parameters.h(297): note: while compiling class template member function 'long par2::Parameters<float>::seed(void) const'
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(163): note: see reference to function template instantiation 'long par2::Parameters<float>::seed(void) const' being compiled
+c:\users\imjw2\documents\csci596\particles\PParticles.cu(182): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(133): note: while compiling class template member function 'par2::PParticles<float>::PParticles(const par2::grid::Grid<float> &,thrust::host_vector<int,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,float,float,float,int,float,float,float,float,unsigned int,long,bool)'
+          with
+          [
+              T=int
+          ]
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(185): note: see reference to function template instantiation 'par2::PParticles<float>::PParticles(const par2::grid::Grid<float> &,thrust::host_vector<int,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,float,float,float,int,float,float,float,float,unsigned int,long,bool)' being compiled
+          with
+          [
+              T=int
+          ]
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(185): note: see reference to class template instantiation 'par2::PParticles<float>' being compiled
+c:\users\imjw2\documents\csci596\particles\PParticles.cu(223): warning C4018: '<': signed/unsigned mismatch
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(216): note: while compiling class template member function 'void par2::PParticles<float>::initializeBox(T,T,T,T,T,T)'
+          with
+          [
+              T=float
+          ]
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(192): note: see reference to function template instantiation 'void par2::PParticles<float>::initializeBox(T,T,T,T,T,T)' being compiled
+          with
+          [
+              T=float
+          ]
+c:\users\imjw2\documents\csci596\particles\PParticles.cu(246): warning C4018: '<': signed/unsigned mismatch
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(240): note: while compiling class template member function 'void par2::PParticles<float>::move(T)'
+          with
+          [
+              T=float
+          ]
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(327): note: see reference to function template instantiation 'void par2::PParticles<float>::move(T)' being compiled
+          with
+          [
+              T=float
+          ]
+c:\users\imjw2\documents\csci596\particles\PParticles.cu(304): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(300): note: while compiling class template member function 'void par2::PParticles<float>::massexportCSV(const std::string &) const'
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(305): note: see reference to function template instantiation 'void par2::PParticles<float>::massexportCSV(const std::string &) const' being compiled
+c:\users\imjw2\documents\csci596\particles\MoveParticle.cuh(133): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  c:\users\imjw2\documents\csci596\particles\MoveParticle.cuh(119): note: while compiling class template member function 'void par2::MoveParticle<T>::initialize(thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,T,T,T,T,int,T,T,T,T,thrust::device_vector<curandState_t,thrust::device_allocator<curandStateXORWOW>> &,bool)'
+          with
+          [
+              T=float
+          ]
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(182): note: see reference to function template instantiation 'void par2::MoveParticle<T>::initialize(thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<T,thrust::device_allocator<T>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,thrust::device_vector<int,thrust::device_allocator<int>> &,T,T,T,T,int,T,T,T,T,thrust::device_vector<curandState_t,thrust::device_allocator<curandStateXORWOW>> &,bool)' being compiled
+          with
+          [
+              T=float
+          ]
+  c:\users\imjw2\documents\csci596\Particles/PParticles.cuh(149): note: see reference to class template instantiation 'par2::MoveParticle<T>' being compiled
+          with
+          [
+              T=float
+          ]
+c:\users\imjw2\documents\csci596\Geometry/CartesianGrid.cuh(298): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  c:\users\imjw2\documents\csci596\Geometry/CellField.cuh(104): note: see reference to function template instantiation 'void par2::grid::centerOfCell<T>(const par2::grid::Grid<T> &,int,int,int,T *,T *,T *)' being compiled
+          with
+          [
+              T=float
+          ]
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(170): note: see reference to function template instantiation 'void par2::cellfield::computeDriftCorrection<float,thrust::host_vector<float,std::allocator<T>>>(const par2::grid::Grid<T> &,const Vector &,const Vector &,const Vector &,Vector &,Vector &,Vector &,T,T,T)' being compiled
+          with
+          [
+              T=float,
+              Vector=thrust::host_vector<float,std::allocator<float>>
+          ]
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(133): note: while compiling class template member function 'par2::PParticles<float>::PParticles(const par2::grid::Grid<float> &,thrust::host_vector<int,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,float,float,float,int,float,float,float,float,unsigned int,long,bool)'
+          with
+          [
+              T=int
+          ]
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(185): note: see reference to function template instantiation 'par2::PParticles<float>::PParticles(const par2::grid::Grid<float> &,thrust::host_vector<int,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,thrust::host_vector<T,std::allocator<T>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,const thrust::host_vector<float,std::allocator<float>> &,float,float,float,int,float,float,float,float,unsigned int,long,bool)' being compiled
+          with
+          [
+              T=int
+          ]
+c:\users\imjw2\documents\csci596\Geometry/CartesianGrid.cuh(299): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\imjw2\documents\csci596\Geometry/CartesianGrid.cuh(300): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\imjw2\documents\csci596\Geometry/FaceField.cuh(180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  c:\users\imjw2\documents\csci596\Geometry/CellField.cuh(107): note: see reference to function template instantiation 'void par2::facefield::in<T>(const T *,const T *,const T *,const par2::grid::Grid<T> &,int,int,int,bool,T,T,T,T *,T *,T *)' being compiled
+          with
+          [
+              T=float
+          ]
+c:\users\imjw2\documents\csci596\Geometry/FaceField.cuh(181): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\imjw2\documents\csci596\Geometry/FaceField.cuh(182): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/iterator/iterator_adaptor.h(204): warning C4244: '+=': conversion from '__int64' to 'unsigned int', possible loss of data
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/iterator/iterator_adaptor.h(202): note: while compiling class template member function 'void thrust::iterator_adaptor<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)'
+          with
+          [
+              Incrementable=unsigned int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/iterator/iterator_facade.h(171): note: see reference to function template instantiation 'void thrust::iterator_adaptor<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)' being compiled
+          with
+          [
+              Incrementable=unsigned int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/iterator/counting_iterator.h(132): note: see reference to class template instantiation 'thrust::iterator_adaptor<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>' being compiled
+          with
+          [
+              Incrementable=unsigned int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/system/cuda/detail/for_each.h(48): note: see reference to class template instantiation 'thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>' being compiled
+  c:\users\imjw2\appdata\local\temp\tmpxft_00003868_00000000-6_maingpu.compute_70.cudafe1.stub.c(359): note: see reference to class template instantiation 'thrust::cuda_cub::for_each_f<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::detail::wrapped_function<par2::InitCURAND<float>,void>>' being compiled
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/system/cuda/detail/reduce.h(945): warning C4244: 'initializing': conversion from '__int64' to 'thrust::detail::int32_t', possible loss of data
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/system/cuda/detail/reduce.h(1021): note: see reference to function template instantiation 'T thrust::cuda_cub::detail::reduce_n_impl<thrust::cuda_cub::tag,InputIt,Size,T,BinaryOp>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,Size,T,BinaryOp)' being compiled
+          with
+          [
+              T=size_type,
+              InputIt=thrust::cuda_cub::transform_input_iterator_t<__int64,thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,par2::isInside<float>>,
+              Size=__int64,
+              BinaryOp=thrust::plus<__int64>
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/system/cuda/detail/count.h(56): note: see reference to function template instantiation 'T thrust::cuda_cub::reduce_n<thrust::cuda_cub::tag,thrust::cuda_cub::transform_input_iterator_t<__int64,thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,par2::isInside<float>>,__int64,size_type,thrust::plus<T>>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,Size,T,BinaryOp)' being compiled
+          with
+          [
+              T=size_type,
+              InputIt=thrust::cuda_cub::transform_input_iterator_t<__int64,thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,par2::isInside<float>>,
+              Size=__int64,
+              BinaryOp=thrust::plus<__int64>
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/count.inl(51): note: see reference to function template instantiation '__int64 thrust::cuda_cub::count_if<thrust::cuda_cub::tag,InputIterator,Predicate>(thrust::cuda_cub::execution_policy<thrust::cuda_cub::tag> &,InputIt,InputIt,UnaryPred)' being compiled
+          with
+          [
+              InputIterator=thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,
+              Predicate=par2::isInside<float>,
+              InputIt=thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,
+              UnaryPred=par2::isInside<float>
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/detail/count.inl(79): note: see reference to function template instantiation '__int64 thrust::count_if<DerivedPolicy,InputIterator,Predicate>(const thrust::detail::execution_policy_base<DerivedPolicy> &,InputIterator,InputIterator,Predicate)' being compiled
+          with
+          [
+              DerivedPolicy=thrust::cuda_cub::tag,
+              InputIterator=thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,
+              Predicate=par2::isInside<float>
+          ]
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(361): note: see reference to function template instantiation '__int64 thrust::count_if<thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<T>>,thrust::detail::normal_iterator<thrust::device_ptr<T>>,thrust::detail::normal_iterator<thrust::device_ptr<T>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,par2::isInside<T>>(InputIterator,InputIterator,Predicate)' being compiled
+          with
+          [
+              T=float,
+              InputIterator=thrust::zip_iterator<thrust::tuple<thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::detail::normal_iterator<thrust::device_ptr<const float>>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,
+              Predicate=par2::isInside<float>
+          ]
+  c:\users\imjw2\documents\csci596\particles\PParticles.cu(355): note: while compiling class template member function 'float par2::PParticles<float>::concentrationBox(T,T,T,T,T,T) const'
+          with
+          [
+              T=float
+          ]
+  C:/Users/imjw2/Documents/CSCI596/maingpu.cu(276): note: see reference to function template instantiation 'float par2::PParticles<float>::concentrationBox(T,T,T,T,T,T) const' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\thrust/system/cuda/detail/reduce.h(973): warning C4244: 'initializing': conversion from '__int64' to 'thrust::detail::int32_t', possible loss of data
+c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cub\agent\../grid/grid_even_share.cuh(133): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cub\agent\../grid/grid_even_share.cuh(128): note: while compiling class template member function 'void cub::GridEvenShare<__int64>::DispatchInit(OffsetT,int,int)'
+          with
+          [
+              OffsetT=__int64
+          ]
+  c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cub\device\dispatch/dispatch_reduce.cuh(519): note: see reference to function template instantiation 'void cub::GridEvenShare<__int64>::DispatchInit(OffsetT,int,int)' being compiled
+          with
+          [
+              OffsetT=__int64
+          ]
+  c:\users\imjw2\appdata\local\temp\tmpxft_00003868_00000000-6_maingpu.compute_70.cudafe1.stub.c(518): note: see reference to class template instantiation 'cub::GridEvenShare<__int64>' being compiled
+c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cub\agent\../grid/grid_even_share.cuh(135): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+     Creating library C:/Users/imjw2/Documents/CSCI596/Build/Release/par2.lib and object C:/Users/imjw2/Documents/CSCI596/Build/Release/par2.exp
+  par2.vcxproj -> C:\Users\imjw2\Documents\CSCI596\Build\Release\par2.exe
