@@ -2,7 +2,7 @@
 PAR² is a Lagrangian solute transport simulator using a parallelized Random Walk Particle Tracking (RWPT) method. This has been updated to incorporate masstransfer.
 
 # What is in the MassTransfer update?
-Mass Transfer Models (e.g., partitioning or one-site models) is incorporated for each grid block to simulate more realistic solute transport when mass transfer between mobile and immobile phases occurs.
+Various Mass Transfer Models (e.g., partitioning or one-site models) are incorporated into each grid block to simulate more realistic solute transport when mass transfer between mobile and immobile phases occurs.
 
 For instance, the figures below clearly show the results of mass transfer. The first (upper left) and second (upper right) figures present solute transport without mass transfer in homogeneous and heterogeneous porous media, respectively. The third (lower left) and fourth (lower right) figures exhibit solute transport with mass transfer (one-site model) in the same homogeneous and heterogeneous porous media. You can see the immobile phase (brown dots) left along the way of the mobile phase (blue dots).
 
